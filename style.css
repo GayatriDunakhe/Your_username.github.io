@@ -68,17 +68,12 @@ a{
   border-bottom: 2px solid #00cccc;
 }
 
-.hey:hover{
-  color:#660033;
-  border-bottom: 2px solid #660033;
-}
-
-.imge{
+.image{
   height: 500px;
   width: 500px;
 }
 
-.imge img{
+.image img{
   height: 100%;
   width: 100%;
   object-fit: contain;
@@ -95,35 +90,42 @@ a{
   transform: translate(-50%, -50%)
 }
 
-.txt{
+.main-text{
   width: 500px;
 }
 
-.txt h1{
+.main-text h1{
   font-size: 3.5em;
-  color:#660033;
+  color:#1c3548;
   margin: 0px 0px 10px 0px;
   line-height: 60px;
 }
 
-.txt p{
+.main-text p{
   color: grey;
 }
 
-.btn{
+.resume-btn{
   width: 190px;
   height: 44px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  background-image: linear-gradient(to right,#ff3399,#9933ff);
+  background-color: #1db096;
   box-shadow: 5px 10px 30px rgba(24,139,119,0.03);
   border-radius: 20px;
 }
 
-.btn:hover{
-  background-image: linear-gradient(to right,#ff66ff,#0066ff);
+.resume-btn:hover{
+  background-color: #23cdaf;
   box-shadow: 5px 10px 30px rgba(24,139,119,0.03); 
   transition: all ease 0.2s;
 }
+
+.menu li a:hover{
+	background-color: #23cdaf;
+	color: white;
+	box-shadow: 5px 10px 30px rgba(24,139,119,0.03); 
+  	transition: all ease 0.2s;
+} 	
